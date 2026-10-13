@@ -1,0 +1,118 @@
+{
+  "data": {
+    "source": {
+      "id": "4839000923958753250",
+      "name": "Demo",
+      "displayName": "Demo (TR)",
+      "lang": "tr",
+      "iconUrl": "/api/v1/extension/icon/com.demo1",
+      "__typename": "SourceType",
+      "homeUrl": "https://example.com",
+      "isConfigurable": false,
+      "supportsLatest": true,
+      "meta": [
+        {
+          "sourceId": "4839000923958753250",
+          "key": "webUI_migration",
+          "value": "9",
+          "__typename": "SourceMetaType"
+        },
+        {
+          "sourceId": "4839000923958753250",
+          "key": "webUI_isPinned",
+          "value": "false",
+          "__typename": "SourceMetaType"
+        }
+      ],
+      "filters": [
+        {
+          "type": "SelectFilter",
+          "SelectFilterDefault": 0,
+          "name": "Sıralama",
+          "values": ["En Yeni", "En Popüler", "A-Z", "Son Güncelleme"],
+          "__typename": "SelectFilter"
+        },
+        {
+          "type": "SelectFilter",
+          "SelectFilterDefault": 0,
+          "name": "Kategori",
+          "values": [
+            "Seçiniz...",
+            "Aksiyon",
+            "Avcı",
+            "Bebek",
+            "Büyü",
+            "Canavar",
+            "Çete",
+            "Cin",
+            "Cin-serisi",
+            "Doğaüstü",
+            "Doktor",
+            "Dövüş",
+            "Dövüş-sanatları",
+            "Dram",
+            "Drama",
+            "Ecchi",
+            "Fantastik",
+            "Fantezi",
+            "Geçmişe-dönme",
+            "Geri-dönüş",
+            "Gizem",
+            "Harem",
+            "Hayattan-kesitler",
+            "Intikam",
+            "Isekai",
+            "Komedi",
+            "Kule",
+            "Macera",
+            "Manhua",
+            "Manhwa",
+            "Mature",
+            "Murim",
+            "Okul",
+            "Okul-hayatı",
+            "Oyun",
+            "Peri",
+            "Reankarnasyon",
+            "Reankarne",
+            "Romantik",
+            "Romantizm",
+            "Sanal-gerçeklik",
+            "Sci-fi",
+            "Seinen",
+            "Şeytani",
+            "Shounen",
+            "Şiddet",
+            "Sistem",
+            "Spor",
+            "Super-güç",
+            "Tarihi",
+            "Trajedi",
+            "Uzay Manga",
+            "Webtoon",
+            "Yetişkin",
+            "Yıldız",
+            "Zindan",
+            "Zindanlar",
+            "Zorbalar"
+          ],
+          "__typename": "SelectFilter"
+        },
+        {
+          "type": "SelectFilter",
+          "SelectFilterDefault": 0,
+          "name": "Durum",
+          "values": ["Seçiniz...", "Devam Ediyor", "Tamamlandı", "Durduruldu"],
+          "__typename": "SelectFilter"
+        },
+        {
+          "type": "SelectFilter",
+          "SelectFilterDefault": 0,
+          "name": "Ülke",
+          "values": ["Seçiniz...", "Japonya", "Güney Kore", "Çin", "Diğer"],
+          "__typename": "SelectFilter"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "data": {
+    "migrationMeta": {
+      "metas": [
+        {
+          "categoryId": 0,
+          "key": "webUI_migration",
+          "value": "9",
+          "__typename": "CategoryMetaType"
+        }
+      ],
+      "__typename": "SetCategoryMetasPayload"
+    }
+  }
+}

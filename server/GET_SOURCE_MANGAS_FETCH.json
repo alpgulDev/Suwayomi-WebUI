@@ -1,0 +1,30 @@
+{
+  "data": {
+    "fetchSourceManga": {
+      "hasNextPage": false,
+      "mangas": [
+        {
+          "id": 1,
+          "title": "Demo1",
+          "thumbnailUrl": "/api/v1/manga/1/thumbnail",
+          "thumbnailUrlLastFetched": "1791907158",
+          "inLibrary": false,
+          "initialized": true,
+          "sourceId": "4839000923958753250",
+          "__typename": "MangaType"
+        },
+        {
+          "id": 2,
+          "title": "Demo2",
+          "thumbnailUrl": "/api/v1/manga/2/thumbnail",
+          "thumbnailUrlLastFetched": "0",
+          "inLibrary": false,
+          "initialized": false,
+          "sourceId": "4839000923958753250",
+          "__typename": "MangaType"
+        }
+      ],
+      "__typename": "FetchSourceMangaPayload"
+    }
+  }
+}

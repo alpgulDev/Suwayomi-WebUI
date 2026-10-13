@@ -1,0 +1,49 @@
+{
+  "data": {
+    "chapters": {
+      "nodes": [
+        {
+          "id": 81,
+          "name": "Chapter 80",
+          "mangaId": 1,
+          "scanlator": null,
+          "realUrl": "https://example.com/manga/demo/80",
+          "sourceOrder": 81,
+          "chapterNumber": 80.0,
+          "__typename": "ChapterType",
+          "isRead": false,
+          "isDownloaded": false,
+          "isBookmarked": false,
+          "fetchedAt": "1791907158",
+          "uploadDate": "1757096577000",
+          "lastReadAt": "1791907324"
+        },
+        {
+          "id": 80,
+          "name": "Chapter 79",
+          "mangaId": 1,
+          "scanlator": null,
+          "realUrl": "https://example.com/manga/demo/79",
+          "sourceOrder": 80,
+          "chapterNumber": 79.0,
+          "__typename": "ChapterType",
+          "isRead": false,
+          "isDownloaded": false,
+          "isBookmarked": false,
+          "fetchedAt": "1791907158",
+          "uploadDate": "1757096566000",
+          "lastReadAt": "1791907325"
+        }        
+      ],
+      "pageInfo": {
+        "endCursor": "1-1",
+        "hasNextPage": false,
+        "hasPreviousPage": false,
+        "startCursor": "81-81",
+        "__typename": "PageInfo"
+      },
+      "totalCount": 81,
+      "__typename": "ChapterNodeList"
+    }
+  }
+}

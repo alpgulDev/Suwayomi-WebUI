@@ -1,0 +1,79 @@
+{
+  "data": {
+    "chapters": {
+      "nodes": [
+        {
+          "id": 80,
+          "name": "Chapter 79",
+          "mangaId": 1,
+          "scanlator": null,
+          "realUrl": "https://example.com/79-chapter",
+          "sourceOrder": 80,
+          "chapterNumber": 79.0,
+          "__typename": "ChapterType",
+          "isRead": false,
+          "isDownloaded": false,
+          "isBookmarked": false,
+          "fetchedAt": "1791907158",
+          "uploadDate": "1757096566000",
+          "lastReadAt": "1791907325",
+          "manga": {
+            "id": 1,
+            "title": "Demo1",
+            "thumbnailUrl": "/api/v1/manga/1/thumbnail",
+            "thumbnailUrlLastFetched": "1791907158",
+            "inLibrary": false,
+            "initialized": true,
+            "sourceId": "4839000923958753250",
+            "__typename": "MangaType",
+            "unreadCount": 81,
+            "downloadCount": 0,
+            "bookmarkCount": 0,
+            "hasDuplicateChapters": false,
+            "chapters": { "totalCount": 81, "__typename": "ChapterNodeList" }
+          }
+        },
+        {
+          "id": 81,
+          "name": "Chapter 80",
+          "mangaId": 1,
+          "scanlator": null,
+          "realUrl": "https://example.com/80-chapter",
+          "sourceOrder": 81,
+          "chapterNumber": 80.0,
+          "__typename": "ChapterType",
+          "isRead": false,
+          "isDownloaded": false,
+          "isBookmarked": false,
+          "fetchedAt": "1791907158",
+          "uploadDate": "1757096577000",
+          "lastReadAt": "1791907324",
+          "manga": {
+            "id": 1,
+            "title": "Demo1",
+            "thumbnailUrl": "/api/v1/manga/1/thumbnail",
+            "thumbnailUrlLastFetched": "1791907158",
+            "inLibrary": false,
+            "initialized": true,
+            "sourceId": "4839000923958753250",
+            "__typename": "MangaType",
+            "unreadCount": 81,
+            "downloadCount": 0,
+            "bookmarkCount": 0,
+            "hasDuplicateChapters": false,
+            "chapters": { "totalCount": 81, "__typename": "ChapterNodeList" }
+          }
+        }
+      ],
+      "pageInfo": {
+        "endCursor": "81-1791907324",
+        "hasNextPage": false,
+        "hasPreviousPage": false,
+        "startCursor": "80-1791907325",
+        "__typename": "PageInfo"
+      },
+      "totalCount": 2,
+      "__typename": "ChapterNodeList"
+    }
+  }
+}

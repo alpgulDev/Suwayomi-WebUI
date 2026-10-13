@@ -1,0 +1,25 @@
+{
+  "data": {
+    "updateMangaCategories": {
+      "manga": {
+        "id": 1,
+        "categories": {
+          "nodes": [],
+          "totalCount": 0,
+          "__typename": "CategoryNodeList"
+        },
+        "__typename": "MangaType"
+      },
+      "__typename": "UpdateMangaCategoriesPayload"
+    },
+    "updateManga": {
+      "manga": {
+        "id": 1,
+        "inLibrary": true,
+        "inLibraryAt": "1791911853",
+        "__typename": "MangaType"
+      },
+      "__typename": "UpdateMangaPayload"
+    }
+  }
+}

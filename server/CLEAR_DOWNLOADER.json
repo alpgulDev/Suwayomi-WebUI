@@ -1,0 +1,12 @@
+{
+  "data": {
+    "clearDownloader": {
+      "downloadStatus": {
+        "state": "STOPPED",
+        "queue": [],
+        "__typename": "DownloadStatus"
+      },
+      "__typename": "ClearDownloaderPayload"
+    }
+  }
+}

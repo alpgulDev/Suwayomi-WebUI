@@ -1,0 +1,20 @@
+{
+  "data": {
+    "lastUpdateTimestamp": {
+      "timestamp": "0",
+      "__typename": "LastUpdateTimestampPayload"
+    },
+    "chapters": {
+      "nodes": [],
+      "pageInfo": {
+        "endCursor": null,
+        "hasNextPage": false,
+        "hasPreviousPage": false,
+        "startCursor": null,
+        "__typename": "PageInfo"
+      },
+      "totalCount": 0,
+      "__typename": "ChapterNodeList"
+    }
+  }
+}

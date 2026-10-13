@@ -1,0 +1,27 @@
+{
+  "data": {
+    "updateExtension": {
+      "extension": {
+        "pkgName": "com.demo1",
+        "name": "Demo",
+        "lang": "tr",
+        "versionCodeLong": "106037",
+        "versionName": "1.6.37",
+        "iconUrl": "/api/v1/extension/icon/com.demo1",
+        "storeIndexUrl": "https://example.com/index.pb",
+        "contentWarning": "SAFE",
+        "isInstalled": false,
+        "isObsolete": false,
+        "hasUpdate": false,
+        "extensionLib": "1.6",
+        "extensionStore": {
+          "indexUrl": "https://example.com/index.pb",
+          "name": "Demo",
+          "__typename": "ExtensionStoreType"
+        },
+        "__typename": "ExtensionType"
+      },
+      "__typename": "UpdateExtensionPayload"
+    }
+  }
+}

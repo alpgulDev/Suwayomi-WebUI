@@ -1,0 +1,15 @@
+{
+  "data": {
+    "updateChapters": {
+      "chapters": [
+        {
+          "id": 81,
+          "isBookmarked": true,
+          "manga": { "id": 1, "bookmarkCount": 1, "__typename": "MangaType" },
+          "__typename": "ChapterType"
+        }
+      ],
+      "__typename": "UpdateChaptersPayload"
+    }
+  }
+}

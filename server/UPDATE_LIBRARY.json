@@ -1,0 +1,20 @@
+{
+  "data": {
+    "updateLibrary": {
+      "updateStatus": {
+        "jobsInfo": {
+          "isRunning": false,
+          "totalJobs": 0,
+          "finishedJobs": 0,
+          "skippedCategoriesCount": 0,
+          "skippedMangasCount": 0,
+          "__typename": "UpdaterJobsInfoType"
+        },
+        "categoryUpdates": [],
+        "mangaUpdates": [],
+        "__typename": "LibraryUpdateStatus"
+      },
+      "__typename": "UpdateLibraryPayload"
+    }
+  }
+}

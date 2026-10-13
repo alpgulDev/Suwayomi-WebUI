@@ -1,0 +1,71 @@
+{
+  "data": {
+    "trackers": {
+      "totalCount": 6,
+      "pageInfo": {
+        "endCursor": "7",
+        "hasNextPage": false,
+        "hasPreviousPage": false,
+        "startCursor": "1",
+        "__typename": "PageInfo"
+      },
+      "nodes": [
+        {
+          "id": 1,
+          "name": "MyAnimeList",
+          "icon": "/api/v1/track/1/thumbnail",
+          "isLoggedIn": false,
+          "isTokenExpired": false,
+          "__typename": "TrackerType",
+          "authUrl": "https://myanimelist.net/v1/oauth2/authorize?client_id=3fda277931a4f9bc01fa4a715ce8b91d&code_challenge=31Bcn1lJViC9v6tUjRF_ue0-7C3PLLg-BTmCcDoXZPqcLIO218jme1lGM7BVyY5e5N4&response_type=code"
+        },
+        {
+          "id": 2,
+          "name": "AniList",
+          "icon": "/api/v1/track/2/thumbnail",
+          "isLoggedIn": false,
+          "isTokenExpired": false,
+          "__typename": "TrackerType",
+          "authUrl": "https://anilist.co/api/v2/oauth/authorize?client_id=16186&response_type=token"
+        },
+        {
+          "id": 3,
+          "name": "Kitsu",
+          "icon": "/api/v1/track/3/thumbnail",
+          "isLoggedIn": false,
+          "isTokenExpired": false,
+          "__typename": "TrackerType",
+          "authUrl": null
+        },
+        {
+          "id": 4,
+          "name": "Shikimori",
+          "icon": "/api/v1/track/4/thumbnail",
+          "isLoggedIn": false,
+          "isTokenExpired": false,
+          "__typename": "TrackerType",
+          "authUrl": "https://shikimori.io/oauth/authorize?client_id=qTrMBF5HtM_33Pv2Vm2fFmEaBUI_c3LvohyJ0beQ9pA&redirect_uri=https%3A%2F%2Fsuwayomi.org%2Ftracker-oauth&response_type=code"
+        },
+        {
+          "id": 5,
+          "name": "Bangumi",
+          "icon": "/api/v1/track/5/thumbnail",
+          "isLoggedIn": false,
+          "isTokenExpired": false,
+          "__typename": "TrackerType",
+          "authUrl": "https://bgm.tv/oauth/authorize?client_id=bgm376667faf473119bb&response_type=code&redirect_uri=https%3A%2F%2Fsuwayomi.org%2Ftracker-oauth"
+        },
+        {
+          "id": 7,
+          "name": "MangaUpdates",
+          "icon": "/api/v1/track/7/thumbnail",
+          "isLoggedIn": false,
+          "isTokenExpired": false,
+          "__typename": "TrackerType",
+          "authUrl": null
+        }
+      ],
+      "__typename": "TrackerNodeList"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "data": {
+    "getWebUIUpdateStatus": {
+      "info": {
+        "channel": "STABLE",
+        "tag": "",
+        "__typename": "WebUIUpdateInfo"
+      },
+      "progress": 0,
+      "state": "IDLE",
+      "__typename": "WebUIUpdateStatus"
+    }
+  }
+}

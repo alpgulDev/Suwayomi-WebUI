@@ -1,0 +1,15 @@
+{
+  "data": {
+    "updatedMeta": {
+      "metas": [
+        {
+          "sourceId": "4839000923958753250",
+          "key": "webUI_isPinned",
+          "value": "true",
+          "__typename": "SourceMetaType"
+        }
+      ],
+      "__typename": "SetSourceMetasPayload"
+    }
+  }
+}

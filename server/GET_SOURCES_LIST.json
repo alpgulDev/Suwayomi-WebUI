@@ -1,0 +1,63 @@
+{
+  "data": {
+    "sources": {
+      "nodes": [
+        {
+          "id": "0",
+          "name": "Local source",
+          "displayName": "Local source",
+          "lang": "localsourcelang",
+          "iconUrl": "/api/v1/extension/icon/eu.kanade.tachiyomi.source.local",
+          "__typename": "SourceType",
+          "contentWarning": "SAFE",
+          "isConfigurable": false,
+          "supportsLatest": true,
+          "meta": [
+            {
+              "sourceId": "0",
+              "key": "webUI_migration",
+              "value": "9",
+              "__typename": "SourceMetaType"
+            }
+          ],
+          "extension": {
+            "pkgName": "eu.kanade.tachiyomi.source.local",
+            "storeIndexUrl": null,
+            "extensionStore": null,
+            "__typename": "ExtensionType"
+          }
+        },
+        {
+          "id": "4839000923958753250",
+          "name": "Demo",
+          "displayName": "Demo (TR)",
+          "lang": "tr",
+          "iconUrl": "/api/v1/extension/icon/com.demo1",
+          "__typename": "SourceType",
+          "contentWarning": "SAFE",
+          "isConfigurable": false,
+          "supportsLatest": true,
+          "meta": [
+            {
+              "sourceId": "4839000923958753250",
+              "key": "webUI_migration",
+              "value": "9",
+              "__typename": "SourceMetaType"
+            }
+          ],
+          "extension": {
+            "pkgName": "com.demo1",
+            "storeIndexUrl": "https://example.com/index.pb",
+            "extensionStore": {
+              "indexUrl": "https://example.com/index.pb",
+              "name": "Demo",
+              "__typename": "ExtensionStoreType"
+            },
+            "__typename": "ExtensionType"
+          }
+        }
+      ],
+      "__typename": "SourceNodeList"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "data": {
+    "fetchExtensions": {
+      "extensions": [
+        {
+          "pkgName": "com.demo1",
+          "name": "Demo",
+          "lang": "all",
+          "versionCodeLong": "106004",
+          "versionName": "1.6.4",
+          "iconUrl": "/api/v1/extension/icon/com.demo1",
+          "storeIndexUrl": "https://github.com/keiyoushi/extensions/raw/repo/index.pb",
+          "isInstalled": true,
+          "isObsolete": false,
+          "hasUpdate": false,
+          "extensionLib": "1.6",
+          "extensionStore": {
+            "indexUrl": "https://github.com/keiyoushi/extensions/raw/repo/index.pb",
+            "name": "Keiyoushi",
+            "__typename": "ExtensionStoreType"
+          },
+          "__typename": "ExtensionType"
+        },
+        {
+          "pkgName": "com.demo2",
+          "name": "Demo 2",
+          "lang": "all",
+          "versionCodeLong": "106010",
+          "versionName": "1.6.10",
+          "iconUrl": "/api/v1/extension/icon/com.demo2",
+          "storeIndexUrl": "https://github.com/keiyoushi/extensions/raw/repo/index.pb",
+          "isInstalled": false,
+          "isObsolete": false,
+          "hasUpdate": false,
+          "extensionLib": "1.6",
+          "extensionStore": {
+            "indexUrl": "https://github.com/keiyoushi/extensions/raw/repo/index.pb",
+            "name": "Keiyoushi",
+            "__typename": "ExtensionStoreType"
+          },
+          "__typename": "ExtensionType"
+        }
+      ],
+      "extensionStores": [
+        {
+          "badgeLabel": "DEMO",
+          "contactDiscord": "https://discord.gg/example",
+          "contactWebsite": "https://example.com",
+          "extensionListUrl": null,
+          "indexUrl": "https://example.com/index.pb",
+          "isLegacy": false,
+          "name": "Demo",
+          "signingKey": "9add655a78e96c4ec7a53ef89dccb557cb5d767489fac5e785d671a5a75d4da2",
+          "extensions": {
+            "totalCount": 1433,
+            "__typename": "ExtensionNodeList"
+          },
+          "__typename": "ExtensionStoreType"
+        }
+      ],
+      "__typename": "FetchExtensionsPayload"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "data": {
+    "downloadStatus": {
+      "state": "STOPPED",
+      "queue": [],
+      "__typename": "DownloadStatus"
+    }
+  }
+}

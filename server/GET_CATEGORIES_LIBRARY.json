@@ -1,0 +1,29 @@
+{
+  "data": {
+    "categories": {
+      "nodes": [
+        {
+          "id": 0,
+          "name": "Default",
+          "default": true,
+          "order": 0,
+          "__typename": "CategoryType",
+          "meta": [],
+          "mangas": {
+            "totalCount": 0,
+            "__typename": "MangaNodeList"
+          }
+        }
+      ],
+      "pageInfo": {
+        "endCursor": "0-0",
+        "hasNextPage": false,
+        "hasPreviousPage": false,
+        "startCursor": "0-0",
+        "__typename": "PageInfo"
+      },
+      "totalCount": 1,
+      "__typename": "CategoryNodeList"
+    }
+  }
+}

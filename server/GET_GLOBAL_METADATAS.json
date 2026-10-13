@@ -1,0 +1,27 @@
+{
+  "data": {
+    "metas": {
+      "nodes": [
+        {
+          "key": "webUI_lastUsedSourceId",
+          "value": "4839000923958753250",
+          "__typename": "GlobalMetaType"
+        },
+        {
+          "key": "webUI_migration",
+          "value": "9",
+          "__typename": "GlobalMetaType"
+        }
+      ],
+      "pageInfo": {
+        "endCursor": "webUI_migration",
+        "hasNextPage": false,
+        "hasPreviousPage": false,
+        "startCursor": "webUI_lastUsedSourceId",
+        "__typename": "PageInfo"
+      },
+      "totalCount": 2,
+      "__typename": "GlobalMetaNodeList"
+    }
+  }
+}

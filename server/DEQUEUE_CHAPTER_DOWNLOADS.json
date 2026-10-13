@@ -1,0 +1,12 @@
+{
+  "data": {
+    "dequeueChapterDownloads": {
+      "downloadStatus": {
+        "state": "STARTED",
+        "queue": [],
+        "__typename": "DownloadStatus"
+      },
+      "__typename": "DequeueChapterDownloadsPayload"
+    }
+  }
+}

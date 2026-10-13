@@ -1,0 +1,8 @@
+{
+  "data": {
+    "mangas": {
+      "totalCount": 0,
+      "__typename": "MangaNodeList"
+    }
+  }
+}

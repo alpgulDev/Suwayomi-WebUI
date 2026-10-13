@@ -1,0 +1,88 @@
+{
+  "data": {
+    "manga": {
+      "id": 1,
+      "title": "Demo",
+      "thumbnailUrl": "/api/v1/manga/1/thumbnail",
+      "thumbnailUrlLastFetched": "1791907158",
+      "inLibrary": false,
+      "initialized": true,
+      "sourceId": "4839000923958753250",
+      "__typename": "MangaType",
+      "unreadCount": 81,
+      "downloadCount": 0,
+      "bookmarkCount": 0,
+      "hasDuplicateChapters": false,
+      "chapters": {
+        "totalCount": 81,
+        "__typename": "ChapterNodeList"
+      },
+      "firstUnreadChapter": {
+        "id": 80,
+        "sourceOrder": 1,
+        "isRead": false,
+        "mangaId": 1,
+        "chapterNumber": 1.0,
+        "name": "80",
+        "scanlator": null,
+        "__typename": "ChapterType"
+      },
+      "lastReadChapter": {
+        "id": 80,
+        "sourceOrder": 80,
+        "lastReadAt": "1791907325",
+        "__typename": "ChapterType"
+      },
+      "latestReadChapter": null,
+      "latestFetchedChapter": {
+        "id": 81,
+        "fetchedAt": "1791907158",
+        "__typename": "ChapterType"
+      },
+      "latestUploadedChapter": {
+        "id": 81,
+        "uploadDate": "1757096577000",
+        "__typename": "ChapterType"
+      },
+      "highestNumberedChapter": {
+        "id": 81,
+        "chapterNumber": 80.0,
+        "__typename": "ChapterType"
+      },
+      "genre": [
+        "Dram",
+        "Fantastik",
+        "Manhwa",
+        "Romantizm"
+      ],
+      "lastFetchedAt": "1791907158",
+      "inLibraryAt": "0",
+      "status": "UNKNOWN",
+      "artist": null,
+      "author": null,
+      "description": "Demo description\n\n",
+      "meta": [
+        {
+          "mangaId": 1,
+          "key": "webUI_migration",
+          "value": "9",
+          "__typename": "MangaMetaType"
+        }
+      ],
+      "source": {
+        "id": "4839000923958753250",
+        "name": "Demo",
+        "displayName": "Demo (TR)",
+        "lang": "tr",
+        "iconUrl": "/api/v1/extension/icon/com.demo1",
+        "__typename": "SourceType"
+      },
+      "trackRecords": {
+        "totalCount": 0,
+        "nodes": [],
+        "__typename": "TrackRecordNodeList"
+      },
+      "realUrl": "https://example.com/manga/demo"
+    }
+  }
+}

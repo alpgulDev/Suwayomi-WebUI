@@ -1,0 +1,32 @@
+{
+  "data": {
+    "extensionStores": {
+      "nodes": [
+        {
+          "badgeLabel": "DEMO",
+          "contactDiscord": "https://discord.gg/example",
+          "contactWebsite": "https://example.com",
+          "extensionListUrl": null,
+          "indexUrl": "https://example.com/index.pb",
+          "isLegacy": false,
+          "name": "Demo",
+          "signingKey": "9add655a78e96c4ec7a53ef89dccb557cb5d767489fac5e785d671a5a75d4da2",
+          "extensions": {
+            "totalCount": 1433,
+            "__typename": "ExtensionNodeList"
+          },
+          "__typename": "ExtensionStoreType"
+        }
+      ],
+      "pageInfo": {
+        "endCursor": "https://example.com/index.pb",
+        "hasNextPage": false,
+        "hasPreviousPage": false,
+        "startCursor": "https://example.com/index.pb",
+        "__typename": "PageInfo"
+      },
+      "totalCount": 1,
+      "__typename": "ExtensionStoreNodeList"
+    }
+  }
+}

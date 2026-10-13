@@ -1,0 +1,51 @@
+{
+  "data": {
+    "enqueueChapterDownload": {
+      "downloadStatus": {
+        "state": "STOPPED",
+        "queue": [
+          {
+            "chapter": {
+              "id": 80,
+              "name": "Chapter 79",
+              "mangaId": 1,
+              "scanlator": null,
+              "realUrl": "https://example.com/79-chapter",
+              "sourceOrder": 80,
+              "chapterNumber": 79.0,
+              "__typename": "ChapterType",
+              "isDownloaded": false,
+              "pageCount": 64
+            },
+            "manga": {
+              "id": 1,
+              "title": "Demo1",
+              "thumbnailUrl": "/api/v1/manga/1/thumbnail",
+              "thumbnailUrlLastFetched": "1791907158",
+              "inLibrary": false,
+              "initialized": true,
+              "sourceId": "4839000923958753250",
+              "__typename": "MangaType",
+              "downloadCount": 0,
+              "source": {
+                "id": "4839000923958753250",
+                "name": "Demo",
+                "displayName": "Demo (TR)",
+                "lang": "tr",
+                "iconUrl": "/api/v1/extension/icon/com.demo1",
+                "__typename": "SourceType"
+              }
+            },
+            "progress": 0.0,
+            "state": "QUEUED",
+            "tries": 0,
+            "position": 0,
+            "__typename": "DownloadType"
+          }
+        ],
+        "__typename": "DownloadStatus"
+      },
+      "__typename": "EnqueueChapterDownloadPayload"
+    }
+  }
+}

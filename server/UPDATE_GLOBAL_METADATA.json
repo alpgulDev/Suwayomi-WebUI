@@ -1,0 +1,14 @@
+{
+  "data": {
+    "updatedMeta": {
+      "metas": [
+        {
+          "key": "webUI_lastUsedSourceId",
+          "value": "4839000923958753250",
+          "__typename": "GlobalMetaType"
+        }
+      ],
+      "__typename": "SetGlobalMetasPayload"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "data": {
+    "manga": {
+      "id": 1,
+      "title": "Demo1",
+      "thumbnailUrl": "/api/v1/manga/1/thumbnail",
+      "thumbnailUrlLastFetched": "1791907158",
+      "inLibrary": false,
+      "initialized": true,
+      "sourceId": "4839000923958753250",
+      "__typename": "MangaType",
+      "genre": ["Dram", "Fantastik", "Manhwa", "Romantizm"],
+      "source": {
+        "id": "4839000923958753250",
+        "name": "Demo",
+        "displayName": "Demo (TR)",
+        "lang": "tr",
+        "iconUrl": "/api/v1/extension/icon/com.demo1",
+        "__typename": "SourceType"
+      },
+      "meta": [
+        {
+          "mangaId": 1,
+          "key": "webUI_migration",
+          "value": "9",
+          "__typename": "MangaMetaType"
+        }
+      ],
+      "chapters": { "totalCount": 81, "__typename": "ChapterNodeList" },
+      "trackRecords": { "totalCount": 0, "__typename": "TrackRecordNodeList" }
+    }
+  }
+}

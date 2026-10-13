@@ -1,0 +1,10 @@
+{
+  "data": {
+    "koSyncStatus": {
+      "isLoggedIn": false,
+      "serverAddress": null,
+      "username": null,
+      "__typename": "KoSyncStatusPayload"
+    }
+  }
+}
